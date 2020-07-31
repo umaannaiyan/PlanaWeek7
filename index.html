@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   
+    <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainPlana">
+        <div class="header">
+            <h1>PLana</h1>
+        </div>
+        <div class="row">
+            <div class="col-3 col-s-3 menu">
+              <ul>
+                <li> <a href="./index.html" >View PLana</a> </li>
+                <li><a href="./add.html"  >Add Task</a></li>
+                <li><a href="./edit.html" >Edit Task</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-s-9">
+              
+                <div class="container">
+                  <h2>View Task</h2>
+                  <p><strong>PLANA:</strong> The <strong>planner</strong> is for personal and work related planning. Click on the task to view details.</p>
+                  <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a class="hoverable"  data-toggle="collapse" data-parent="#accordion" href="#collapse1"> Friday 30/7/2020</a>
+                          <div class="show-on-hover text-in">  <p>
+          
+                              <ul class="w3-ul w3-card-4 fram" style="width: 35%"  >
+                              <li>Task : Sprint 1 </li> 
+                          <li>Assingnee : Uma</li>
+                          <li>Due Date  30/70/2020</li>
+                          <li>Status : Done</li>
+                          </ul>
+                         </p></div> 
+                        </h4>
+                      </div> 
+                        <!-- THIS LINE CAN BE UNMARK IF WE WANT TO SEE THE DESCRIPTION ON OPENING. 
+                           <div id="collapse1" class="panel-collapse collapse in">  -->
+          
+          
+                <!--  THE BELOW LINE WE NOT SHOW DESCRIPTION ON OPENING OF THE SCREEN FOR VIEW BUT UPON CLICKING -->
+          
+                          <div id="collapse1" class="panel-collapse collapse">
+              <!--  THE ABOVE LINE IS TO DECIDE IF YOU WANT TO SEE THE DESCRIPTIONS OR NOT  -->
+               
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                      </div>
+                    </div>
+                    <!-- task 2 -->
+          
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a class="hoverable"  data-toggle="collapse" data-parent="#accordion" href="#collapse2">Wenesday 3/8/2020</a>
+                          <div class="show-on-hover text-in">  <p>
+          
+                              <ul class="w3-ul w3-card-4 fram" style="width: 35%" >
+                              <li>Task : Milk </li> 
+                          <li>Assingnee : Amutha</li>
+                          <li>Due Date  3/8/2020</li>
+                          <li>Status : To do</li>
+                          </ul>
+                         </p></div> 
+                      
+                      </h4>
+                      </div>
+                      <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                      </div>
+                    </div>
+          
+                    
+          
+                    <!-- TASK 3 --> 
+          
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a class="hoverable" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Tuesday 15/8/2020</a>
+                          <div class="show-on-hover text-in">  <p>
+          
+                              <ul class="w3-ul w3-card-4 fram" style="width: 35%" >
+                              <li>Task : Dinner Generation </li> 
+                          <li>Assingnee : Uma</li>
+                          <li>Due Date  15/8/2020</li>
+                          <li>Status : Review</li>
+                          </ul>
+                         </p></div> 
+                      </h4>
+                      </div>
+                      <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                      </div>
+                    </div>
+                    
+          
+                  </div> 
+                </div>
+           
+
+
+
+
+
+                
+                    <div style="margin-top: 5vh;">
+                      <button type="submit" style="background-color: #0099cc;margin-left: 25 px;float: inline-end;" class="btn btn-primary ">Submit</button>
+                      <button class="btn  btn-danger" style="margin-left: 5px; border-radius: 5px; "> <i class="fas fa-redo-alt"></i>Cancel</button>            
+                      <button class="btn btn btn-warning" style="margin-left: 15px; border-radius: 5px; "> <i class="fas fa-redo-alt"></i>Reset</button>
+                    </div>
+               </div>
+              </div>             
+                  
+      
+  
+      <div class="footer">
+        <p>PLana is Responsive Design. It can easily work on your smallest device to the largest.</p>
+      </div>
+    </div>  
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body> 
+</html>
